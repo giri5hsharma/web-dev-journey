@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="01.html">
+      <!-- LABELS added for mapping; "for" and "id" must match-->
+      <div>
+        <label for="username">Enter a usernme:</label>
+        <input id="username" type="text" placeholder="username" />
+      </div>
+
+      <div>
+        <label for="password">Enter your password: </label>
+        <input id="password" type="password" placeholder="password" />
+      </div>
+      <div>
+        <label for="color">Select your favourite color</label>
+        <input type="color" id="color" />
+      </div>
+      <!--DIFF BUTTON TYPES-->
+      <button type="reset">RESET</button>
+      <button type="submit">SUBMIT</button>
+    </form>
+
+    <hr />
+
+    <!--HIJACKING YOUTUBE SEARCH SITE-->
+
+    <form action="https://www.youtube.com/results">
+      <h2>YOUTUBE SEARCH REDIRECT</h2>
+      <input type="text" name="search_query" placeholder="Search YouTube" />
+      <button type="submit">Search Youtube</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">hey</th>
+          <th rowspan="2" colspan="2">hey</th>
+          <th rowspan="2">hey</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>one</td>
+          <td>one</td>
+          <td>one</td>
+          <td>one</td>
+        </tr>
+        <tr>
+          <td>one</td>
+          <td>one</td>
+          <td>one</td>
+          <td>one</td>
+        </tr>
+        <tr>
+          <td>one</td>
+          <td>one</td>
+          <td>one</td>
+          <td>one</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>CHECKBOXES BABYYY</h2>
+
+    <form action="">
+      <div>
+        <input type="checkbox" id="checkbox" name="checkbox" value="agree" />
+        <label for="checkbox">I agree </label>
+      </div>
+
+      <!--RADIO BUTTONS SHOUD HAVE THE SAME FUKING NAME-->
+      <!--VALUE ATTRIBUTE TO SPECIFY WHICH RADIO BUTTON-->
+
+      <div>
+        <label for="radio">S</label>
+        <input type="radio" name="radio" id="radio" value="S" />
+        <label for="radio2">M</label>
+        <input type="radio" name="radio" id="radio2" value="M" />
+        <label for="radio3">L</label>
+        <input type="radio" name="radio" id="radio3" value="L" />
+
+        <label for="animals">Please select your favourite animal:</label
+        ><select name="animals" id="animals">
+          <option value="">--Please sleect your favourite animal--</option>
+          <option value="dog">DOG</option>
+          <option value="cat">CAT</option>
+          <option value="rat">RAT</option>
+        </select>
+
+        <button type="submit">SUBMIT</button>
+      </div>
+    </form>
+  </body>
+</html>

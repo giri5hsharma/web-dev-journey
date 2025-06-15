@@ -1,0 +1,50 @@
+h1{
+    text-align: right;
+    font-family: 'fantasy';
+}
+
+#special{
+    color:blue;
+}
+
+.spans{
+    color: green;
+    background-color: yellowgreen;
+}
+
+h2{  
+    font-weight: lighter;
+}
+
+h3{
+    text-decoration: underline red dotted;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+body{
+    line-height: 2;
+    font-family: 'Segoe UI', 'Lucida Grande';
+}
+
+input[type="text"]{
+    background-color: #B2D8CE;
+    color: #5459AC;
+}
+
+button:hover{
+    background-color: #5459AC;
+    color: #B2D8CE;
+}
+
+button:Active{
+    color:red;
+}
+
+p:nth-of-type(3n):hover{
+    background-color: #B2D8CE;    
+}

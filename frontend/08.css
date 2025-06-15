@@ -1,0 +1,35 @@
+div, h1{
+    width:200px;
+    height:200px;
+}
+
+h1{
+    border: 2px dashed black;
+    padding:30px;
+    margin:0;
+}
+
+
+#one{
+    border-width:2px;
+    border-color:black;
+    border-style: solid;
+    background-color: bisque;
+    margin-left:3px;
+    margin-bottom: 4px;
+}
+
+#two{
+    border: 4px solid red;
+    background-color: lightblue;
+}
+
+#three{
+    background-color: lightgreen;
+    border-radius:5%;
+    border-right: 10px solid red;
+}
+
+button{
+    padding: 10px 20px;
+}
